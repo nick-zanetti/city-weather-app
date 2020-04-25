@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Find Local Weather</title>
+</head>
+<body>
+  
+  <div id="wrapper">
+    <div id="intro">Find local weather</div>
+    <form id="submit-form">
+      <input type="text" placeholder="City name..." name="cityName" id="city-name" autofocus> <button id="submit-button">Submit</button>
+    </form>
+    
+    <div id="weather-box">
+      <p class="box-items" id="city-output"></p>
+      <img class="box-items" id="weather-icon" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" />
+      <p class="box-items" id="temp"></p>
+      <p class="box-items" id="description"></p>
+    </div>
+    
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
