@@ -10,6 +10,10 @@ const kelvinToFarenheit = (temp) => {
   return 9/5 * (temp - 273) +32
 }
 
+const celsiusToFarenheit = (temp) => {
+  return (temp * 1.8) + 32
+}
+
 form.addEventListener('submit', ((e) => {
   e.preventDefault()
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${e.target.elements.cityName.value}&appid=868f0a5a4fc143a87198d4b2b0a7cdf1`)
