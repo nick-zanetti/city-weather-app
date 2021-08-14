@@ -12,7 +12,7 @@ const kelvinToFarenheit = (temp) => {
 
 const celsiusToFarenheit = (temp) => {
   return (temp * 1.8) + 32
-  console.log('conflicting line of code')
+  console.log('conflicting line of code in this function here')
 }
 
 form.addEventListener('submit', ((e) => {
